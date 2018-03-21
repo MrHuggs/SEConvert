@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SEConvert", "SEConvert\SEConvert.pyproj", "{493FB0EB-AA14-43FC-9CEC-218C71B809ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493FB0EB-AA14-43FC-9CEC-218C71B809ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493FB0EB-AA14-43FC-9CEC-218C71B809ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EB499D9-645E-4453-B8B7-55DC01DFAD71}
+	EndGlobalSection
+EndGlobal
