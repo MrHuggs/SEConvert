@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>SEConvert</Name>
     <RootNamespace>SEConvert</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>.\BinaryTypeTest\simple.tex</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
