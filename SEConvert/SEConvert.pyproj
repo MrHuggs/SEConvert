@@ -12,7 +12,7 @@
     <Name>SEConvert</Name>
     <RootNamespace>SEConvert</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>.\BinaryTypeTest\simple.tex</CommandLineArguments>
+    <CommandLineArguments>.\TexSamples\Sample1.tex</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -24,6 +24,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CharStream.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="is_tex_file.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SEConvert.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

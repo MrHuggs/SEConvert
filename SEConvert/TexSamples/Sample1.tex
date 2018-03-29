@@ -1,0 +1,38 @@
+$\def\ip {\, \lrcorner \, }\def\Ab {\,\text{Ab} \,}\def\Hom {\,\text{Hom} \,} \def\im{\,\text{im} \,}\def\h#1{H^#1_{dR}}$
+**Statement**
+
+If $G$ is a group, the **commutator subgroup of $G$,** denoted $[G,G]$ is the smallest normal subgroup containing all elements of the form $g_1 g_2 g_1^{-1}g_2^{-1}$ for $g_1, g_2 \in G;$ and the **abelianization of G**,  denoted by $\Ab(G)$ is the quotient group $G / [G,G].$
+
+Suppose $M$ is a connected smooth manifold and $q \in M.$ It can be shown that there is a group homomorphism from $\pi_1(M, q)$ to $H_1(M)$ that sends the homotopy class of a loop $\gamma$ to the homology class of the $1$-cycle determined  by $\gamma,$ and this map descends to an isomorphism from $\Ab(\pi_1(M,q))$ to $H_1(M).$
+
+Use this result together with the de Rham Theorem to prove that the map $\Phi : H_{dR}^1(M) \rightarrow \Hom (\pi_1(M,q), \Bbb R)$ of Theorem 17.17 is an isomorphism.
+
+**Theorem 17.17 (First Cohomology and the Fundamental Group)**
+
+Suppose $M$ is a connected smooth manifold. For each $q\in M$, the linear map $\Phi : H_{dR}^1(M) \rightarrow \Hom(\pi_1(M, q), \Bbb R)$ is well defined and injective.
+
+The map is:
+
+$${\cal I} [\omega][\gamma] = \int_\gamma \omega.$$
+
+**The de Rham Theorem** 
+
+The **de Rham Theorem** (18.14) states that:
+$${\cal I} : H^p_{dR}M \rightarrow H^p(M; \Bbb R) \cong \Hom (H_p(M); \Bbb R)$$
+is an isomorphism. 
+
+**Proof**
+
+Since 17.17 shows that $\Phi$ is well defined and injective, what remains to be shown is that it is surjective.
+
+We have $\Ab(\pi_1(M,q))  \cong H_1(M).$
+
+Therefore:
+$$\begin{align}H_{dR}^1(M) &\cong \Hom (H_1(M); \Bbb R)\\& \cong  \Hom (\Ab(\pi_1(M,q)); \Bbb R).\end{align}$$
+
+Finally, from **Abelianization and Hom,** we have:
+$$\Hom (\Ab(\pi_1(M,q); \Bbb R) \cong \Hom (\pi_1(M,q); \Bbb R)$$
+
+And then finally:
+
+$$H_{dR}^1(M) \cong \Hom (\pi_1(M,q); \Bbb R).\, \blacksquare$$
